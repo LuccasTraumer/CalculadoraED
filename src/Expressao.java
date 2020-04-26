@@ -1,8 +1,7 @@
-class Expressao{
-    private
-
-    public static double resolva(String strExp){
-
-    }
-
-}
+//class Expressao{
+//
+//    public static double resolva(String strExp){
+//
+//    }
+//
+//}
