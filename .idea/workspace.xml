@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7231bb12-a52e-4065-b047-21c34a8c9aa9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expressao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,38 +77,38 @@
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
     <state x="726" y="1343" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587941634711" />
-    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1587942081827">
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1587948103274">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587942081827" />
-    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1587942081827">
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948103274" />
+    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1587948103274">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587942081827" />
-    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1587942081827">
+    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948103274" />
+    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1587948103274">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587942081827" />
-    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1587942081827">
+    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948103274" />
+    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1587948103274">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587942081827" />
-    <state width="1237" height="303" key="GridCell.Tab.1.bottom" timestamp="1587941871021">
+    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948103274" />
+    <state width="1237" height="303" key="GridCell.Tab.1.bottom" timestamp="1587948100075">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587941871021" />
-    <state width="1237" height="303" key="GridCell.Tab.1.center" timestamp="1587941871021">
+    <state width="1237" height="303" key="GridCell.Tab.1.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948100075" />
+    <state width="1237" height="303" key="GridCell.Tab.1.center" timestamp="1587948100074">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587941871021" />
-    <state width="1237" height="303" key="GridCell.Tab.1.left" timestamp="1587941871021">
+    <state width="1237" height="303" key="GridCell.Tab.1.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948100074" />
+    <state width="1237" height="303" key="GridCell.Tab.1.left" timestamp="1587948100074">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587941871021" />
-    <state width="1237" height="303" key="GridCell.Tab.1.right" timestamp="1587941871021">
+    <state width="1237" height="303" key="GridCell.Tab.1.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948100074" />
+    <state width="1237" height="303" key="GridCell.Tab.1.right" timestamp="1587948100075">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587941871021" />
+    <state width="1237" height="303" key="GridCell.Tab.1.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948100075" />
     <state x="554" y="1291" width="672" height="678" key="search.everywhere.popup" timestamp="1587936661398">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
@@ -121,8 +119,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MainTest.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
+          <line>5</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
