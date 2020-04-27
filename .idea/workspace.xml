@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7231bb12-a52e-4065-b047-21c34a8c9aa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Operadores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculadoraED/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculadoraED/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Expressao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -31,6 +35,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
@@ -65,6 +73,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="483" y="1230" key="#Project_Structure" timestamp="1587950816885">
+      <screen x="251" y="1080" width="1280" height="984" />
+    </state>
+    <state x="483" y="1230" key="#Project_Structure/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587950816885" />
     <state x="439" y="1204" width="1092" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587941645011">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
@@ -77,22 +89,22 @@
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
     <state x="726" y="1343" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587941634711" />
-    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1587948103274">
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1587953101674">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948103274" />
-    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1587948103274">
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587953101674" />
+    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1587953101674">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948103274" />
-    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1587948103274">
+    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587953101674" />
+    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1587953101674">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948103274" />
-    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1587948103274">
+    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587953101674" />
+    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1587953101674">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948103274" />
+    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587953101674" />
     <state width="1237" height="303" key="GridCell.Tab.1.bottom" timestamp="1587948100075">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
@@ -109,20 +121,9 @@
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
     <state width="1237" height="303" key="GridCell.Tab.1.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587948100075" />
-    <state x="554" y="1291" width="672" height="678" key="search.everywhere.popup" timestamp="1587936661398">
+    <state x="554" y="1291" width="672" height="678" key="search.everywhere.popup" timestamp="1587953543842">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state x="554" y="1291" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587936661398" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MainTest.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="554" y="1291" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587953543842" />
   </component>
 </project>

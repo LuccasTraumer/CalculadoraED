@@ -1,10 +1,11 @@
 public class MainTest {
 
     public static void main(String[] args) throws Exception{
-        Fila<String> test = new Fila<>();
+
+    Operadores<Character,Integer> op = new Operadores<>();
+        System.out.println(Operadores.DIVISAO);
 
 
-
-        System.out.println(test);
     }
 }
+
