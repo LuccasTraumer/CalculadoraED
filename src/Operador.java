@@ -1,4 +1,4 @@
-public class Operadores<SINAL,PRECEDENCIA>{
+public class Operador<SINAL,PRECEDENCIA>{
 
     public static final char SOMA = '+';
     public static final char SUBTRACAO = '-';
@@ -8,13 +8,14 @@ public class Operadores<SINAL,PRECEDENCIA>{
     public static final char PARENTESE_ABERTURA = '(';
     public static final char PARENTESE_FECHADURA = ')';
 
+
     private char sinal = ' ';
     private int precedencia = 0;
-    public Operadores(char sinal, int precedencia){
+    public Operador(char sinal, int precedencia){
         this.sinal = sinal;
         this.precedencia = precedencia;
     }
-    public Operadores(char sinal){
+    public Operador(char sinal){
         this.sinal = sinal;
         this.precedencia = saberPrecedencia(sinal);
     }
@@ -27,25 +28,25 @@ public class Operadores<SINAL,PRECEDENCIA>{
     public int saberPrecedencia(char sinal){
         int ret = 0;
         switch (sinal){
-            case Operadores.SUBTRACAO:
+            case Operador.SUBTRACAO:
                 ret = 1;
                 break;
-            case Operadores.SOMA:
+            case Operador.SOMA:
                 ret = 1;
                 break;
-            case Operadores.DIVISAO:
+            case Operador.DIVISAO:
                 ret = 2;
                 break;
-            case Operadores.MULTIPLICACAO:
+            case Operador.MULTIPLICACAO:
                 ret = 2;
                 break;
-            case Operadores.POTENCIACAO:
+            case Operador.POTENCIACAO:
                 ret = 3;
                 break;
-            case Operadores.PARENTESE_ABERTURA:
+            case Operador.PARENTESE_ABERTURA:
                 ret = 4;
                 break;
-            case Operadores.PARENTESE_FECHADURA:
+            case Operador.PARENTESE_FECHADURA:
                 ret = 4;
                 break;
             default:
@@ -55,10 +56,27 @@ public class Operadores<SINAL,PRECEDENCIA>{
         return ret;
     }
 
+//    /**
+//     *
+//     * @param obj
+//     * @return Operadores
+//     * @throws Exception
+//     * Recebe um Operadores e faz a comparação entre esse Operador e quem esta na topo da Pilha
+//     *
+//     */
+//    public Operador precedenciaDeSinais(Operador obj) throws Exception{
+//        if(obj == null || obj.sinal == 666 )
+//            throw new Exception("Sinal Invalido para Comparação");
+//
+//    }
+
     public char getSinal(){
         return this.sinal;
     }
     public int getPrecedencia(){
         return this.precedencia;
+    }
+    public String toString(){
+        return this.sinal+"";
     }
 }

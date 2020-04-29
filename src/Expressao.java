@@ -1,44 +1,84 @@
-import java.util.concurrent.ExecutionException;
-
-class Expressao{
+public class Expressao{
 
     private static Fila<Double> OPERANDOS;
-    private static Pilha<Operadores> OPERADORES;
+    private static Fila<Object> ORDEM_CORRETA_EXPRESSAO;
+    private static Operador SINAIS;
 
-    private static Operadores sinaisPrecedencia;
-
-    public static double resolva(String strExp){
+    public static double resolva(String strExp) throws Exception{
+        PERCORRER_STRING(strExp);
 
 
     }
-    private static PERCORRER_STRING(String strExp) throws Exception{
-        String exepressao = strExp;
+
+    public static double RESOLUCAO(Fila numero, Pilha operadores){
+        double res = 0;
+        while()
+
+        return res;
+    }
+    public static void PERCORRER_STRING(String strExp) throws Exception{
+        String exepressao = strExp.trim();
         String numero = "";
-        for(int i=0; i < exepressao.length(); i++){
+        Armazenar.size(strExp.length());
+        for(int i=0; i <= exepressao.length()-1; i++){
             char numeroOuOperador = exepressao.charAt(i);
             if(E_UM_NUMERO(numeroOuOperador)){
-                numero = numeroOuOperador+"";
+                numero += numeroOuOperador+"";
+                if(E_UM_NUMERO(numero) && i == exepressao.length()-1){
+                    Armazenar.inserirNumero(converterCharToInt(numero));
+                }
             }else{
-               OPERANDOS.inserir(CONVERSOR(numero));
+               Armazenar.inserirNumero(converterCharToInt(numero));
                numero = "";
-               OPERADORES.empilhar(QUAL_OPERADOR(numeroOuOperador));
+                SINAIS = new Operador<Character,Integer>(numeroOuOperador);
+                  Armazenar.empilharOperadores(SINAIS);
             }
         }
-    }
-
-    public static Operadores QUAL_OPERADOR(char operador) throws Exception{
-        operadores = new Operadores(operador);
-        return operadores;
-
-    }
-    public static char QUEM_TEM_PRIORIDADE(String operador){
-
-    }
-    private static boolean E_UM_NUMERO(char str){
-
-    }
-    private static double CONVERSOR(String elemento){
 
     }
 
+    public static boolean E_UM_NUMERO(char str){
+        boolean ret = false;
+        try{
+            Integer num = Integer.parseInt(str+"");
+            if(num != str){
+                ret = true;
+            }
+        }catch(NumberFormatException err){
+            err.getMessage();
+        }
+        return ret;
+    }
+    public static boolean E_UM_NUMERO(String str){
+        boolean ret = false;
+        Integer num = null;
+        try{
+            num = Integer.parseInt(str);
+        }catch(NumberFormatException err){
+            err.getMessage();
+        }
+        if(num != null){
+            ret = true;
+        }
+        return ret;
+    }
+
+    public static int converterCharToInt(char str){
+        int num = 0;
+        try{
+            num = Integer.parseInt(str+"");
+        }catch(NumberFormatException err){
+            err.getMessage();
+        }
+        return num;
+    }
+    public static int converterCharToInt(String str){
+        int num = 0;
+        try{
+            num = Integer.parseInt(str+"");
+        }catch(NumberFormatException err){
+            err.getMessage();
+        }
+        return num;
+    }
 }
