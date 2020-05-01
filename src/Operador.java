@@ -1,5 +1,15 @@
+import java.util.concurrent.ExecutionException;
+
+/**
+ * creted by: Lucas Jesus
+ * Date: 01/05/2020
+ * repository: https://github.com/LuccasTraumer/CalculadoraED
+ * */
 public class Operador<SINAL,PRECEDENCIA>{
 
+    /**
+     * Atributos fixos para compração de Operadores
+     * */
     public static final char SOMA = '+';
     public static final char SUBTRACAO = '-';
     public static final char MULTIPLICACAO = '*';
@@ -10,13 +20,15 @@ public class Operador<SINAL,PRECEDENCIA>{
 
     private char sinal = ' ';
     private int precedencia = 0;
-    public Operador(char sinal, int precedencia){
-        this.sinal = sinal;
-        this.precedencia = precedencia;
-    }
-    public Operador(char sinal){
+    /**
+     * Recebendo o sinal, ele busca qual a precedencia e atribui ao atributo
+     * */
+    public Operador(char sinal) throws Exception{
         this.sinal = sinal;
         this.precedencia = saberPrecedencia(sinal);
+
+        if(precedencia == 666)
+            throw new Exception("Sinal de Operação Invalido!");
     }
 
     /**
@@ -54,6 +66,7 @@ public class Operador<SINAL,PRECEDENCIA>{
         }
         return ret;
     }
+
     protected char getSinal(){
         return this.sinal;
     }

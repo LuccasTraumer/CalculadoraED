@@ -1,9 +1,23 @@
+/**
+ * creted by: Lucas Jesus
+ * Date: 01/05/2020
+ * repository: https://github.com/LuccasTraumer/CalculadoraED
+ * */
 public class Armazenar {
 
+    /**
+     * Pilha que vai armazenar os Operadores
+     * */
     protected static Pilha<Operador> PILHA_OPERADORES = new Pilha<>();
 
+    /**
+     * Fila que vai armazenar a Expressão infixa
+     * */
     protected  static Fila<Object> FILA_EXPRESSAO_EM_ORDEM;
 
+    /**
+     * Metodo que faz a comparacão de Precedencia
+     * */
     protected static void empilharOperadores(Operador sinal) throws Exception{
         if(sinal.getSinal() == Operador.PARENTESE_ABERTURA){
             PILHA_OPERADORES.empilhar(sinal);
@@ -14,10 +28,7 @@ public class Armazenar {
             return;
         }
         if(sinal.getSinal() == Operador.PARENTESE_FECHADURA){
-            while(PILHA_OPERADORES.topo().getSinal() != Operador.PARENTESE_ABERTURA){
-                FILA_EXPRESSAO_EM_ORDEM.inserir(PILHA_OPERADORES.remover());
-            }
-            PILHA_OPERADORES.remover();
+            removeParentese();
             return;
         }
         // Se sinal_precedencia for menor que Pilha_topo EE pilha_topo.sinal for diferente Parent_Abertura; INSERIR NA FILA E INSERIR SINAL NA PILHA
@@ -55,6 +66,9 @@ public class Armazenar {
 
     }
 
+    /**
+     * Caso a Expressão não tenha parentese
+     * */
     protected static void verificarParentese() throws Exception{
         boolean existeParentese = false;
         Pilha<Operador> clone = new Pilha<>(PILHA_OPERADORES);
@@ -66,6 +80,10 @@ public class Armazenar {
         }
         inserirOperadores(existeParentese);
     }
+
+    /**
+     * Caso não tenha parentese, insere na Fila infixa
+     * */
     private static void inserirOperadores(boolean existeParentes) throws Exception{
         if(!existeParentes){
             while (!PILHA_OPERADORES.estaVazio()){
@@ -74,25 +92,32 @@ public class Armazenar {
         }
     }
 
-    private static Fila<Object> removeParentese() throws Exception{
-        Fila<Object> clone = new Fila<>(Armazenar.FILA_EXPRESSAO_EM_ORDEM);
-        Fila<Object> aux = new Fila<>(clone.getTamanho());
-        while(!clone.estaVazio()){
-            if(!clone.inicio().equals(Operador.PARENTESE_ABERTURA)|| !clone.inicio().equals(Operador.PARENTESE_FECHADURA)){
-                aux.inserir(clone.remover());
-            }
+    /**
+     * Caso tenha parente de abertura comeca a retirar os Operadores, até que feche os Parenteses
+     * */
+    private static void removeParentese() throws Exception{
+        while(PILHA_OPERADORES.topo().getSinal() != Operador.PARENTESE_ABERTURA){
+            FILA_EXPRESSAO_EM_ORDEM.inserir(PILHA_OPERADORES.remover());
         }
-        FILA_EXPRESSAO_EM_ORDEM = aux;
-        return FILA_EXPRESSAO_EM_ORDEM;
+        PILHA_OPERADORES.remover();
     }
+    /**
+     * Verifica se a Pilha de Operadores esta Vazia, caso não esteja insere na Fila
+     * */
     protected static void temSinal() throws Exception{
         while(!PILHA_OPERADORES.estaVazio()){
             FILA_EXPRESSAO_EM_ORDEM.inserir(PILHA_OPERADORES.remover());
         }
     }
+    /**
+     * Insere numero na Fila de Expressão
+     * */
     public static void inserirNumero(Integer numero) throws Exception{
         FILA_EXPRESSAO_EM_ORDEM.inserir(numero);
     }
+    /**
+     * Instancia a Fila e Pilha, para armazenar os valores
+     * */
     public final static void size(int length) {
         PILHA_OPERADORES = new Pilha<>(length);
         FILA_EXPRESSAO_EM_ORDEM = new Fila<>(length);

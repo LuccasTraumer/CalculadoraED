@@ -1,8 +1,23 @@
+/**
+ * creted by: Lucas Jesus
+ * Date: 01/05/2020
+ * repository: https://github.com/LuccasTraumer/CalculadoraED
+ * */
+
 public class Expressao{
 
-
+    /**
+     * Objeto que vai moldar o operador
+     * */
     private static Operador SINAIS;
+    /**
+     * Vai armazenar o Resultado das Operações
+     * */
     private static Pilha<Double> pilhaDeNumeros = new Pilha<>();
+
+    /**
+     * Metodo que vai chamar os metodos necessarios para ler e Resolver a Expressão
+     * */
     public static double resolva(String strExp) throws Exception{
         PERCORRER_STRING(strExp);
         Armazenar.temSinal();
@@ -10,6 +25,9 @@ public class Expressao{
         return pilharNumeros(Armazenar.FILA_EXPRESSAO_EM_ORDEM);
     }
 
+    /**
+     * Metodo que vai incluir os Numeros na Pilha de Numeros
+     * */
     public static double pilharNumeros(Fila<Object> listaDados) throws Exception{
         while(!listaDados.estaVazio() && listaDados.inicio() != null || pilhaDeNumeros.getIndex() != 0) {
             if(listaDados.inicio() instanceof Double || listaDados.inicio() instanceof Integer) {
@@ -28,6 +46,9 @@ public class Expressao{
         return pilhaDeNumeros.topo();
     }
 
+    /**
+     * Dado os Operando e Operador vai executar a Expressão
+     * */
     private static Double efetuarOperacao(Double numUm,Double numDois, String operador){
         Double ret = 0.0;
         switch (operador){
@@ -50,6 +71,10 @@ public class Expressao{
 
         return ret;
     }
+
+    /**
+     * Metodo que vai ler a Expressão e separa Operando e Operadores
+     * */
     public static void PERCORRER_STRING(String strExp) throws Exception{
         if(strExp == null || strExp.equals("") || strExp.equals(" "))
             throw new Exception("Expressão Invalida!");
@@ -74,17 +99,26 @@ public class Expressao{
 
     }
 
-
+    /**
+     * Metodo que inclui os Operandos na Fila
+     * */
     private static void inserirNumero(String numero) throws Exception{
         if(!numero.equals("") || numero.equals(" ")) {
             Armazenar.inserirNumero(converterCharToInt(numero));
         }
     }
+
+    /**
+     * Metodo que insere os Operadores na Pilha
+     * */
     private static void empilharOperador(char sinal) throws Exception{
         SINAIS = new Operador<Character, Integer>(sinal);
         Armazenar.empilharOperadores(SINAIS);
     }
 
+    /**
+     * Verifica se o caracter recebido é um numero
+     * */
     public static boolean E_UM_NUMERO(char str){
         boolean ret = false;
         try{
@@ -97,6 +131,7 @@ public class Expressao{
         }
         return ret;
     }
+
     public static boolean E_UM_NUMERO(String str){
         boolean ret = false;
         Integer num = null;
@@ -110,6 +145,10 @@ public class Expressao{
         }
         return ret;
     }
+
+    /**
+     * Converte o caracter recebido em um numero
+     * */
     public static int converterCharToInt(String str){
         int num = 0;
         try{
