@@ -13,6 +13,7 @@ public class Pilha<X> {
     public Pilha(int tamanho){
         this.tamanho = tamanho;
         this.elementos = new Object[tamanho];
+
     }
 
 
