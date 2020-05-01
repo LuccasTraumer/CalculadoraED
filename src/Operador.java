@@ -8,7 +8,6 @@ public class Operador<SINAL,PRECEDENCIA>{
     public static final char PARENTESE_ABERTURA = '(';
     public static final char PARENTESE_FECHADURA = ')';
 
-
     private char sinal = ' ';
     private int precedencia = 0;
     public Operador(char sinal, int precedencia){
@@ -25,7 +24,7 @@ public class Operador<SINAL,PRECEDENCIA>{
      * @param sinal(char)
      * @return o inteiro referente a precedencia, caso não encontre o sinal retorn 666.
      */
-    public int saberPrecedencia(char sinal){
+    protected int saberPrecedencia(char sinal){
         int ret = 0;
         switch (sinal){
             case Operador.SUBTRACAO:
@@ -55,25 +54,10 @@ public class Operador<SINAL,PRECEDENCIA>{
         }
         return ret;
     }
-
-//    /**
-//     *
-//     * @param obj
-//     * @return Operadores
-//     * @throws Exception
-//     * Recebe um Operadores e faz a comparação entre esse Operador e quem esta na topo da Pilha
-//     *
-//     */
-//    public Operador precedenciaDeSinais(Operador obj) throws Exception{
-//        if(obj == null || obj.sinal == 666 )
-//            throw new Exception("Sinal Invalido para Comparação");
-//
-//    }
-
-    public char getSinal(){
+    protected char getSinal(){
         return this.sinal;
     }
-    public int getPrecedencia(){
+    protected int getPrecedencia(){
         return this.precedencia;
     }
     public String toString(){

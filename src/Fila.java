@@ -85,9 +85,6 @@ public class Fila<X> {
     public int getTamanho(){
         return this.tamanho;
     }
-    private int tamanhoVetor(){
-        return this.elementos.length;
-    }
 
     // Metodos Obrigatorios
     public Object clone(){

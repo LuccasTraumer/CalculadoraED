@@ -1,11 +1,10 @@
 public class Armazenar {
 
-    public static Fila<Integer> FILA_NUMEROS;
-    public static Pilha<Operador> PILHA_OPERADORES = new Pilha<>();
+    protected static Pilha<Operador> PILHA_OPERADORES = new Pilha<>();
 
-    public  static Fila<Object> FILA_EXPRESSAO_EM_ORDEM;
+    protected  static Fila<Object> FILA_EXPRESSAO_EM_ORDEM;
 
-    public static void empilharOperadores(Operador sinal) throws Exception{
+    protected static void empilharOperadores(Operador sinal) throws Exception{
         if(sinal.getSinal() == Operador.PARENTESE_ABERTURA){
             PILHA_OPERADORES.empilhar(sinal);
             return;
@@ -59,10 +58,10 @@ public class Armazenar {
     protected static void verificarParentese() throws Exception{
         boolean existeParentese = false;
         Pilha<Operador> clone = new Pilha<>(PILHA_OPERADORES);
-        Pilha<Operador> aux = new Pilha<>(clone.getTamanho());
-        while(clone.estaVazio()){
+        while(!clone.estaVazio()){
             if(clone.topo().getSinal() == Operador.PARENTESE_ABERTURA ){
                 existeParentese = true;
+                return;
             }
         }
         inserirOperadores(existeParentese);
@@ -86,55 +85,16 @@ public class Armazenar {
         FILA_EXPRESSAO_EM_ORDEM = aux;
         return FILA_EXPRESSAO_EM_ORDEM;
     }
-    private static void temSinal() throws Exception{
-        Fila<Object> aux = new Fila<>(FILA_EXPRESSAO_EM_ORDEM);
-
-        boolean temAlgumSinal = false;
-        for(int i= FILA_EXPRESSAO_EM_ORDEM.getInicio(); i < FILA_EXPRESSAO_EM_ORDEM.getFim(); i++){
-            if(aux.inicio() instanceof Operador){
-                temAlgumSinal = true;
-                break;
-            }
-            aux.remover();
-        }
-        while(!PILHA_OPERADORES.estaVazio() || !temAlgumSinal){
+    protected static void temSinal() throws Exception{
+        while(!PILHA_OPERADORES.estaVazio()){
             FILA_EXPRESSAO_EM_ORDEM.inserir(PILHA_OPERADORES.remover());
-            if(PILHA_OPERADORES.estaVazio()){
-                temAlgumSinal = true;
-            }
         }
     }
     public static void inserirNumero(Integer numero) throws Exception{
-        //FILA_NUMEROS.inserir(numero);
         FILA_EXPRESSAO_EM_ORDEM.inserir(numero);
     }
-    public static Operador removerOperador() throws Exception{
-        return PILHA_OPERADORES.remover();
-    }
-    public static int removerNumero() throws Exception{
-        return FILA_NUMEROS.remover();
-    }
-
-
     public final static void size(int length) {
-        FILA_NUMEROS =  new Fila<>(length);
         PILHA_OPERADORES = new Pilha<>(length);
         FILA_EXPRESSAO_EM_ORDEM = new Fila<>(length);
-    }
-    private static void percorrerFilaNumero() throws Exception{
-        while (!FILA_NUMEROS.estaVazio()){
-            inserirExpressaoOrdenada(FILA_NUMEROS.remover());
-        }
-    }
-    private static void percorrerPilhaOperadores() throws Exception{
-        while(!PILHA_OPERADORES.estaVazio()){
-            inserirExpressaoOrdenada(PILHA_OPERADORES.remover());
-        }
-    }
-    private static void inserirExpressaoOrdenada(Integer numero) throws Exception{
-        FILA_EXPRESSAO_EM_ORDEM.inserir(FILA_NUMEROS.remover());
-    }
-    private static void inserirExpressaoOrdenada(Operador sinal) throws Exception{
-        FILA_EXPRESSAO_EM_ORDEM.inserir(sinal);
     }
 }

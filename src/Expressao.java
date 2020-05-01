@@ -3,10 +3,9 @@ public class Expressao{
 
     private static Operador SINAIS;
     private static Pilha<Double> pilhaDeNumeros = new Pilha<>();
-
-    //private String numero = "";
     public static double resolva(String strExp) throws Exception{
         PERCORRER_STRING(strExp);
+        Armazenar.temSinal();
         Armazenar.verificarParentese();
         return pilharNumeros(Armazenar.FILA_EXPRESSAO_EM_ORDEM);
     }
@@ -110,16 +109,6 @@ public class Expressao{
             ret = true;
         }
         return ret;
-    }
-
-    public static int converterCharToInt(char str){
-        int num = 0;
-        try{
-            num = Integer.parseInt(str+"");
-        }catch(NumberFormatException err){
-            err.getMessage();
-        }
-        return num;
     }
     public static int converterCharToInt(String str){
         int num = 0;
