@@ -56,6 +56,25 @@ public class Armazenar {
 
     }
 
+    protected static void verificarParentese() throws Exception{
+        boolean existeParentese = false;
+        Pilha<Operador> clone = new Pilha<>(PILHA_OPERADORES);
+        Pilha<Operador> aux = new Pilha<>(clone.getTamanho());
+        while(clone.estaVazio()){
+            if(clone.topo().getSinal() == Operador.PARENTESE_ABERTURA ){
+                existeParentese = true;
+            }
+        }
+        inserirOperadores(existeParentese);
+    }
+    private static void inserirOperadores(boolean existeParentes) throws Exception{
+        if(!existeParentes){
+            while (!PILHA_OPERADORES.estaVazio()){
+                FILA_EXPRESSAO_EM_ORDEM.inserir(PILHA_OPERADORES.remover());
+            }
+        }
+    }
+
     private static Fila<Object> removeParentese() throws Exception{
         Fila<Object> clone = new Fila<>(Armazenar.FILA_EXPRESSAO_EM_ORDEM);
         Fila<Object> aux = new Fila<>(clone.getTamanho());

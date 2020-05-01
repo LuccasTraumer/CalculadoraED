@@ -7,7 +7,7 @@ public class Expressao{
     //private String numero = "";
     public static double resolva(String strExp) throws Exception{
         PERCORRER_STRING(strExp);
-
+        Armazenar.verificarParentese();
         return pilharNumeros(Armazenar.FILA_EXPRESSAO_EM_ORDEM);
     }
 

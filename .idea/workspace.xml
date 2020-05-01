@@ -21,14 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7231bb12-a52e-4065-b047-21c34a8c9aa9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculadoraED/Fila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculadoraED/Fila.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/calculadoraED/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculadoraED/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculadoraED/Pilha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculadoraED/Pilha.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Armazenar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Armazenar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Expressao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,45 +120,45 @@
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
     <state x="726" y="1343" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587941634711" />
-    <state width="1237" height="303" key="GridCell.Tab.0.bottom" timestamp="1588357209591">
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1588358112459">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.0.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588357209591" />
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588358112459" />
     <state width="1155" height="230" key="GridCell.Tab.0.bottom/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588121122931" />
-    <state width="1237" height="303" key="GridCell.Tab.0.center" timestamp="1588357209590">
+    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1588358112459">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.0.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588357209590" />
+    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588358112459" />
     <state width="1155" height="230" key="GridCell.Tab.0.center/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588121122931" />
-    <state width="1237" height="303" key="GridCell.Tab.0.left" timestamp="1588357209590">
+    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1588358112458">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.0.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588357209590" />
+    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588358112458" />
     <state width="1155" height="230" key="GridCell.Tab.0.left/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588121122931" />
-    <state width="1237" height="303" key="GridCell.Tab.0.right" timestamp="1588357209591">
+    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1588358112459">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.0.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588357209591" />
+    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588358112459" />
     <state width="1155" height="230" key="GridCell.Tab.0.right/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588121122931" />
-    <state width="1237" height="303" key="GridCell.Tab.1.bottom" timestamp="1588357209591">
+    <state width="1237" height="303" key="GridCell.Tab.1.bottom" timestamp="1588358074106">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588357209591" />
+    <state width="1237" height="303" key="GridCell.Tab.1.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588358074106" />
     <state width="1155" height="287" key="GridCell.Tab.1.bottom/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588111360957" />
-    <state width="1237" height="303" key="GridCell.Tab.1.center" timestamp="1588357209591">
+    <state width="1237" height="303" key="GridCell.Tab.1.center" timestamp="1588358074106">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588357209591" />
+    <state width="1237" height="303" key="GridCell.Tab.1.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588358074106" />
     <state width="1155" height="287" key="GridCell.Tab.1.center/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588111360957" />
-    <state width="1237" height="303" key="GridCell.Tab.1.left" timestamp="1588357209591">
+    <state width="1237" height="303" key="GridCell.Tab.1.left" timestamp="1588358074106">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588357209591" />
+    <state width="1237" height="303" key="GridCell.Tab.1.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588358074106" />
     <state width="1155" height="287" key="GridCell.Tab.1.left/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588111360957" />
-    <state width="1237" height="303" key="GridCell.Tab.1.right" timestamp="1588357209591">
+    <state width="1237" height="303" key="GridCell.Tab.1.right" timestamp="1588358074106">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588357209591" />
+    <state width="1237" height="303" key="GridCell.Tab.1.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588358074106" />
     <state width="1155" height="287" key="GridCell.Tab.1.right/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588111360957" />
     <state x="249" y="1114" width="1211" height="990" key="new project wizard" timestamp="1588018115019">
       <screen x="180" y="1080" width="1280" height="1024" />
@@ -179,11 +174,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Armazenar.java</url>
-          <line>58</line>
+          <line>77</line>
           <properties class="Armazenar" method="removeParentese">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Expressao.java</url>
+          <line>7</line>
+          <properties class="Expressao" method="resolva">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Expressao.java</url>
