@@ -13,7 +13,7 @@ public class MainTest {
 //        //System.out.println(Armazenar.FILA_NUMEROS.toString());
 //        //System.out.println(Armazenar.PILHA_OPERADORES.toString());
 //        System.out.println(Armazenar.FILA_EXPRESSAO_EM_ORDEM.toString());
-        System.out.println(Expressao.resolva("(10.5+2)+4"));
+        System.out.println(Expressao.resolva("(10^1*2-3+10/5/(2+6))"));
 
     }
 }

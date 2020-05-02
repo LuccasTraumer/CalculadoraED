@@ -14,7 +14,6 @@ public class Expressao{
      * Vai armazenar o Resultado das Operações
      * */
     private static Pilha<Double> pilhaDeNumeros = new Pilha<>();
-
     /**
      * Metodo que vai chamar os metodos necessarios para ler e Resolver a Expressão
      * */
@@ -24,7 +23,6 @@ public class Expressao{
         Armazenar.verificarParentese();
         return pilharNumeros(Armazenar.FILA_EXPRESSAO_EM_ORDEM);
     }
-
     /**
      * Metodo que vai incluir os Numeros na Pilha de Numeros
      * */
@@ -41,11 +39,8 @@ public class Expressao{
                  pilhaDeNumeros.empilhar(resultado);
             }
         }
-
-
         return pilhaDeNumeros.topo();
     }
-
     /**
      * Dado os Operando e Operador vai executar a Expressão
      * */
@@ -71,7 +66,6 @@ public class Expressao{
 
         return ret;
     }
-
     /**
      * Metodo que vai ler a Expressão e separa Operando e Operadores
      * */
@@ -98,7 +92,6 @@ public class Expressao{
         }
 
     }
-
     /**
      * Metodo que inclui os Operandos na Fila
      * */
@@ -107,7 +100,6 @@ public class Expressao{
             Armazenar.inserirNumero(converterCharToDouble(numero));
         }
     }
-
     /**
      * Metodo que insere os Operadores na Pilha
      * */
@@ -115,7 +107,6 @@ public class Expressao{
         SINAIS = new Operador<Character, Integer>(sinal);
         Armazenar.empilharOperadores(SINAIS);
     }
-
     /**
      * Verifica se o caracter recebido é um numero
      * */
@@ -131,7 +122,6 @@ public class Expressao{
         }
         return ret;
     }
-
     private static boolean E_UM_NUMERO(String str){
         boolean ret = false;
         Integer num = null;
@@ -145,7 +135,6 @@ public class Expressao{
         }
         return ret;
     }
-
     /**
      * Converte o caracter recebido em um numero
      * */

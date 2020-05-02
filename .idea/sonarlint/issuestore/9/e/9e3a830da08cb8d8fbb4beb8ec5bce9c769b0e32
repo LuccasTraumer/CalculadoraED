@@ -1,14 +1,14 @@
 
-q
-java:S3008"[Rename this field "PILHA_OPERADORES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÃùÚ
 x
-java:S3008"bRename this field "FILA_EXPRESSAO_EM_ORDEM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞêÌ
+java:S3008"bRename this field "FILA_EXPRESSAO_EM_ORDEM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞêÌ
+X	java:S125-"<This block of commented-out lines of code should be removed.(æŸ×º8¯ı‘Š.
 U
 java:S1118":Add a private constructor to hide the implicit public one.(Ğ†‡âşÿÿÿÿ
-X	java:S125/"<This block of commented-out lines of code should be removed.(æŸ×º8¯ı‘Š.
-8
-java:S3626@"Remove this redundant jump.(ûÁİ…8›ºŠŠ.
-b
-java:S1124y"EReorder the modifiers to comply with the Java Language Specification.(üÒæÉ8¯ı‘Š.
 e
-java:S1854M"CRemove this useless assignment to local variable "existeParentese".(›­Šßşÿÿÿÿ8‘ÆÆŒ.
+java:S1854J"CRemove this useless assignment to local variable "existeParentese".(›­Šßşÿÿÿÿ8‘ÆÆŒ.
+8
+java:S3626>"Remove this redundant jump.(ûÁİ…8›ºŠŠ.
+b
+java:S1124t"EReorder the modifiers to comply with the Java Language Specification.(üÒæÉ8¯ı‘Š.
+q
+java:S3008"[Rename this field "PILHA_OPERADORES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÃùÚ

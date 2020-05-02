@@ -30,7 +30,6 @@ public class Operador<SINAL,PRECEDENCIA>{
         if(precedencia == 666)
             throw new Exception("Sinal de Operação Invalido!");
     }
-
     /**
      *
      * @param sinal(char)
@@ -66,7 +65,6 @@ public class Operador<SINAL,PRECEDENCIA>{
         }
         return ret;
     }
-
     protected char getSinal(){
         return this.sinal;
     }

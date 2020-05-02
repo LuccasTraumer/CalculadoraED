@@ -9,12 +9,10 @@ public class Armazenar {
      * Pilha que vai armazenar os Operadores
      * */
     protected static Pilha<Operador> PILHA_OPERADORES = new Pilha<>();
-
     /**
      * Fila que vai armazenar a Expressão infixa
      * */
     protected  static Fila<Object> FILA_EXPRESSAO_EM_ORDEM;
-
     /**
      * Metodo que faz a comparacão de Precedencia
      * */
@@ -65,7 +63,6 @@ public class Armazenar {
         }
 
     }
-
     /**
      * Caso a Expressão não tenha parentese
      * */
@@ -80,7 +77,6 @@ public class Armazenar {
         }
         inserirOperadores(existeParentese);
     }
-
     /**
      * Caso não tenha parentese, insere na Fila infixa
      * */
@@ -91,7 +87,6 @@ public class Armazenar {
             }
         }
     }
-
     /**
      * Caso tenha parente de abertura comeca a retirar os Operadores, até que feche os Parenteses
      * */
