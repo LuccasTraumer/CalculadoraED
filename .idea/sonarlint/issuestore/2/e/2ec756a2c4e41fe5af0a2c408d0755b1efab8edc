@@ -1,30 +1,28 @@
 
-X	java:S1259"<This block of commented-out lines of code should be removed.(×õİ8İã®Å›.
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¨§Õ«ùÿÿÿÿ8›¦Å›.
-R
-java:S1874†"/Remove this use of "Integer"; it is deprecated.(µ»Ãçúÿÿÿÿ8¹ì¸Å›.
 9
-java:S1643g"Use a StringBuilder instead.(Öãî8èİ›Å›.
-D
-java:S2129‡"!Remove this "Integer" constructor(„Ø¼¹şÿÿÿÿ8¹ì¸Å›.
-a	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Ü¶Ù 8›¦Å›.
-M
-java:S1144H"1Remove this unused private "tamanhoVetor" method.(ÎúîU8„­¤Å›.
-J	java:S108<")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8İã®Å›.
-X	java:S1257"<This block of commented-out lines of code should be removed.(ºÓ¯õ8İã®Å›.
+java:S1643j"Use a StringBuilder instead.(Öãî8èİ›Å›.
 e
-java:S1182M"HUse super.clone() to create and seed the cloned instance to be returned.(²ÈŞ8ğ—„Ã›.
+java:S1182P"HUse super.clone() to create and seed the cloned instance to be returned.(²ÈŞ8ğ—„Ã›.
+X	java:S125?"<This block of commented-out lines of code should be removed.(×õİ8İã®Å›.
 D
-java:S2129†"!Remove this "Integer" constructor(µ»Ãçúÿÿÿÿ8¹ì¸Å›.
-p
-java:S2975M"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(²ÈŞ8ğ—„Ã›.
+java:S2129Š"!Remove this "Integer" constructor(„Ø¼¹şÿÿÿÿ8¹ì¸Å›.
 {
-java:S3012_"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(—‘ãÈÿÿÿÿÿ8±¿£Å›.
-g	java:S112X"FDefine and throw a dedicated exception instead of using a generic one.(¾ëãıûÿÿÿÿ8±¿£Å›.
+java:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡“»ùÿÿÿÿ8û ˆÃ›.
 R
-java:S1874‡"/Remove this use of "Integer"; it is deprecated.(„Ø¼¹şÿÿÿÿ8¹ì¸Å›.
-b	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(ï¨éÇ8±¿£Å›.
+java:S1874‰"/Remove this use of "Integer"; it is deprecated.(µ»Ãçúÿÿÿÿ8¹ì¸Å›.
+X	java:S125="<This block of commented-out lines of code should be removed.(ºÓ¯õ8İã®Å›.
+J	java:S108B")Either remove or fill this block of code.(ô¯ãŸşÿÿÿÿ8İã®Å›.
+g	java:S112["FDefine and throw a dedicated exception instead of using a generic one.(¾ëãıûÿÿÿÿ8±¿£Å›.
+p
+java:S2975P"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(²ÈŞ8ğ—„Ã›.
+g	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(¨§Õ«ùÿÿÿÿ8›¦Å›.
+b	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(ï¨éÇ8±¿£Å›.
+D
+java:S2129‰"!Remove this "Integer" constructor(µ»Ãçúÿÿÿÿ8¹ì¸Å›.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(÷êºÉşÿÿÿÿ8È¸ãÅ›.
 {
-java:S2293P"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡“»ùÿÿÿÿ8û ˆÃ›.
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(†úÑ†ÿÿÿÿÿ8È¸ãÅ›.
-g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(÷êºÉşÿÿÿÿ8È¸ãÅ›.
+java:S3012b"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(—‘ãÈÿÿÿÿÿ8±¿£Å›.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(†úÑ†ÿÿÿÿÿ8È¸ãÅ›.
+R
+java:S1874Š"/Remove this use of "Integer"; it is deprecated.(„Ø¼¹şÿÿÿÿ8¹ì¸Å›.
+a	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(Ü¶Ù 8›¦Å›.

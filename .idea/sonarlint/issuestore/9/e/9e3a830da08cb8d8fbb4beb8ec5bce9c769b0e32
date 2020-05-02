@@ -1,0 +1,14 @@
+
+q
+java:S3008"[Rename this field "PILHA_OPERADORES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÃùÚ
+x
+java:S3008"bRename this field "FILA_EXPRESSAO_EM_ORDEM" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÐêžÌ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Ð†‡âþÿÿÿÿ
+X	java:S125/"<This block of commented-out lines of code should be removed.(æŸ×º8¯ý‘Š.
+8
+java:S3626@"Remove this redundant jump.(ûÁÝ…8›ºŠŠ.
+b
+java:S1124y"EReorder the modifiers to comply with the Java Language Specification.(üÒæÉ8¯ý‘Š.
+e
+java:S1854M"CRemove this useless assignment to local variable "existeParentese".(›­Šßþÿÿÿÿ8‘ÆÆŒ.

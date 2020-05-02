@@ -20,14 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7231bb12-a52e-4065-b047-21c34a8c9aa9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/1382b9d899b1a0c75f65051a728bc1a7cca979bb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/1382b9d899b1a0c75f65051a728bc1a7cca979bb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ec756a2c4e41fe5af0a2c408d0755b1efab8edc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2ec756a2c4e41fe5af0a2c408d0755b1efab8edc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d21d2330bcbce21298c0caeab65656713f384003" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d21d2330bcbce21298c0caeab65656713f384003" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8060c87b6c4671aeac72b8356ff06407c25ba3f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbe4a19bdb1c5454c9c81dff3595c2a5c1ca11f9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbe4a19bdb1c5454c9c81dff3595c2a5c1ca11f9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculadoraED/Fila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculadoraED/Fila.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculadoraED/Pilha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculadoraED/Pilha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculadoraED/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculadoraED/MainTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Armazenar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Armazenar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Expressao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expressao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,46 +127,50 @@
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
     <state x="726" y="1343" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587941634711" />
-    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1588361199261">
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom" timestamp="1588425510363">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588361199261" />
+    <state width="1237" height="243" key="GridCell.Tab.0.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588425510363" />
     <state width="1155" height="230" key="GridCell.Tab.0.bottom/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588121122931" />
-    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1588361199261">
+    <state width="1237" height="243" key="GridCell.Tab.0.center" timestamp="1588425510363">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588361199261" />
+    <state width="1237" height="243" key="GridCell.Tab.0.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588425510363" />
     <state width="1155" height="230" key="GridCell.Tab.0.center/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588121122931" />
-    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1588361199261">
+    <state width="1237" height="243" key="GridCell.Tab.0.left" timestamp="1588425510363">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588361199261" />
+    <state width="1237" height="243" key="GridCell.Tab.0.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588425510363" />
     <state width="1155" height="230" key="GridCell.Tab.0.left/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588121122931" />
-    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1588361199261">
+    <state width="1237" height="243" key="GridCell.Tab.0.right" timestamp="1588425510363">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588361199261" />
+    <state width="1237" height="243" key="GridCell.Tab.0.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588425510363" />
     <state width="1155" height="230" key="GridCell.Tab.0.right/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588121122931" />
-    <state width="1237" height="303" key="GridCell.Tab.1.bottom" timestamp="1588359815495">
+    <state width="1237" height="303" key="GridCell.Tab.1.bottom" timestamp="1588425381898">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588359815495" />
+    <state width="1237" height="303" key="GridCell.Tab.1.bottom/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588425381898" />
     <state width="1155" height="287" key="GridCell.Tab.1.bottom/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588111360957" />
-    <state width="1237" height="303" key="GridCell.Tab.1.center" timestamp="1588359815495">
+    <state width="1237" height="303" key="GridCell.Tab.1.center" timestamp="1588425381898">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588359815495" />
+    <state width="1237" height="303" key="GridCell.Tab.1.center/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588425381898" />
     <state width="1155" height="287" key="GridCell.Tab.1.center/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588111360957" />
-    <state width="1237" height="303" key="GridCell.Tab.1.left" timestamp="1588359815495">
+    <state width="1237" height="303" key="GridCell.Tab.1.left" timestamp="1588425381898">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588359815495" />
+    <state width="1237" height="303" key="GridCell.Tab.1.left/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588425381898" />
     <state width="1155" height="287" key="GridCell.Tab.1.left/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588111360957" />
-    <state width="1237" height="303" key="GridCell.Tab.1.right" timestamp="1588359815495">
+    <state width="1237" height="303" key="GridCell.Tab.1.right" timestamp="1588425381898">
       <screen x="251" y="1080" width="1280" height="984" />
     </state>
-    <state width="1237" height="303" key="GridCell.Tab.1.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588359815495" />
+    <state width="1237" height="303" key="GridCell.Tab.1.right/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588425381898" />
     <state width="1155" height="287" key="GridCell.Tab.1.right/180.1080.1280.1024/249.0.1671.1080@180.1080.1280.1024" timestamp="1588111360957" />
+    <state x="567" y="1396" key="com.intellij.ide.util.TipDialog" timestamp="1588425180292">
+      <screen x="251" y="1080" width="1280" height="984" />
+    </state>
+    <state x="567" y="1396" key="com.intellij.ide.util.TipDialog/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1588425180292" />
     <state x="249" y="1114" width="1211" height="990" key="new project wizard" timestamp="1588018115019">
       <screen x="180" y="1080" width="1280" height="1024" />
     </state>
@@ -174,6 +181,18 @@
     <state x="554" y="1291" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/251.1080.1280.984@251.1080.1280.984" timestamp="1587953543842" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Expressao.java</url>
+          <line>77</line>
+          <properties class="Expressao" method="PERCORRER_STRING">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="PILHA_OPERADORES" language="JAVA" />

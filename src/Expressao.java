@@ -28,7 +28,7 @@ public class Expressao{
     /**
      * Metodo que vai incluir os Numeros na Pilha de Numeros
      * */
-    public static double pilharNumeros(Fila<Object> listaDados) throws Exception{
+    private static double pilharNumeros(Fila<Object> listaDados) throws Exception{
         while(!listaDados.estaVazio() && listaDados.inicio() != null || pilhaDeNumeros.getIndex() != 0) {
             if(listaDados.inicio() instanceof Double || listaDados.inicio() instanceof Integer) {
                 pilhaDeNumeros.empilhar(Double.valueOf(listaDados.remover().toString()));
@@ -75,7 +75,7 @@ public class Expressao{
     /**
      * Metodo que vai ler a Expressão e separa Operando e Operadores
      * */
-    public static void PERCORRER_STRING(String strExp) throws Exception{
+    private static void PERCORRER_STRING(String strExp) throws Exception{
         if(strExp == null || strExp.equals("") || strExp.equals(" "))
             throw new Exception("Expressão Invalida!");
         else{
@@ -84,7 +84,7 @@ public class Expressao{
             Armazenar.size(strExp.length());
             for (int i = 0; i <= exepressao.length() - 1; i++) {
                 char caracterAtual = exepressao.charAt(i);
-                if (E_UM_NUMERO(caracterAtual)) {
+                if (E_UM_NUMERO(caracterAtual) || caracterAtual == '.' || caracterAtual == ',') {
                     numero += caracterAtual + "";
                     if (E_UM_NUMERO(numero) && i == exepressao.length() - 1) {
                         inserirNumero(numero);
@@ -104,7 +104,7 @@ public class Expressao{
      * */
     private static void inserirNumero(String numero) throws Exception{
         if(!numero.equals("") || numero.equals(" ")) {
-            Armazenar.inserirNumero(converterCharToInt(numero));
+            Armazenar.inserirNumero(converterCharToDouble(numero));
         }
     }
 
@@ -119,7 +119,7 @@ public class Expressao{
     /**
      * Verifica se o caracter recebido é um numero
      * */
-    public static boolean E_UM_NUMERO(char str){
+    private static boolean E_UM_NUMERO(char str){
         boolean ret = false;
         try{
             Integer num = Integer.parseInt(str+"");
@@ -132,7 +132,7 @@ public class Expressao{
         return ret;
     }
 
-    public static boolean E_UM_NUMERO(String str){
+    private static boolean E_UM_NUMERO(String str){
         boolean ret = false;
         Integer num = null;
         try{
@@ -149,10 +149,10 @@ public class Expressao{
     /**
      * Converte o caracter recebido em um numero
      * */
-    public static int converterCharToInt(String str){
-        int num = 0;
+    private static Double converterCharToDouble(String str){
+        Double num = 0.0;
         try{
-            num = Integer.parseInt(str+"");
+            num = Double.parseDouble(str+"");
         }catch(NumberFormatException err){
             err.getMessage();
         }

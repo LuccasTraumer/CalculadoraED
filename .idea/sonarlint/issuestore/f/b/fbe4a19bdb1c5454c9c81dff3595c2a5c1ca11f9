@@ -1,4 +1,9 @@
 
-G
-java:S2440"*Remove this instantiation of "Operadores".(ğÇ…Ã8Ù¦‰Ë›.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(™•ù¹8¡ÚÊ›.
+Z
+java:S1854"8Remove this useless assignment to local variable "test".(¾Ü»ÿÿÿÿÿ8·ê‹.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñ ¹í8ÔÊ‹.
+K
+java:S1481")Remove this unused "test" local variable.(¾Ü»ÿÿÿÿÿ8·ê‹.
+X	java:S125"<This block of commented-out lines of code should be removed.(×÷şú8·ê‹.
+K
+java:S2440")Remove this instantiation of "Expressao".(¾Ü»ÿÿÿÿÿ8–Öê„.

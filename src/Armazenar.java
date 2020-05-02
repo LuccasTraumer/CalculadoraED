@@ -112,7 +112,7 @@ public class Armazenar {
     /**
      * Insere numero na Fila de Expressão
      * */
-    public static void inserirNumero(Integer numero) throws Exception{
+    public static void inserirNumero(Double numero) throws Exception{
         FILA_EXPRESSAO_EM_ORDEM.inserir(numero);
     }
     /**
